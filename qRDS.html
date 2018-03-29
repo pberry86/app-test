@@ -1,0 +1,84 @@
+<ion-view title="QRDS" id="page3">
+  <ion-content padding="true" style="background: url(img/PWV0MVoTaiaERFnPcY8S_texture-1668079.jpg) no-repeat center;background-size:cover;" class="has-header">
+    
+    <a ui-sref="tabsController.definition()" id="qRDS-button15" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-balanced button-block button-clear">
+        Definition of QRDS
+    </a>
+    
+    <a ui-sref="tabsController.usageOfQRDS()" id="qRDS-button14" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-balanced button-block button-clear">
+        How to use QRDS
+    </a>
+    
+    <button id="qRDS-button25" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-balanced button-block button-clear">
+        Safety colour codex
+    </button>
+    
+    <a ui-sref="tabsController.qRDSFromBook()" id="qRDS-button2" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-balanced button-block button-clear">
+        From my book
+    </a>
+    
+    <div id="qRDS-markdown6" class="show-list-numbers-and-dots">
+        <p style="color:#000000;font-size:20px;">
+            The following sections are to break everything down into bite size chunks to aid the learning process. A greyed out name in a section means an expensive reference text is required to create the QRDS and it will be added in a future update. If you see the same oil in multiple categories it's only cross referenced, you didn't buy it twice.
+        </p>
+    </div>
+
+    <a ng-click="check('Citrus')" id="qRDS-button34" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Citrus
+    </a>
+    
+    <a ng-click="check('Temperate')" id="qRDS-button37" style="font-weight:500;color:#73656F;font-size:25px;" class="button button-positive button-block button-clear">
+        Temperate spices/herbs
+    </a>
+    
+    <a ng-click="check('Tropical')" id="qRDS-button35" style="font-weight:500;color:#73656F;font-size:25px;" class="button button-positive button-block button-clear">
+        Tropical spices/herbs
+    </a>
+    
+    <a ng-click="check('Evergreens')" id="qRDS-button36" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Evergreens
+    </a>
+    
+    <a ng-click="check('Resins')" id="qRDS-button38" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Resins
+    </a>
+    
+    <a ng-click="check('Trees')" id="qRDS-button39" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Trees
+    </a>
+    
+    <a ng-click="check('Florals')" id="qRDS-button41" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Florals
+    </a>
+    
+    <a ng-click="check('Ottos/absolutes')" id="qRDS-button40" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Absolute/otto
+    </a>
+    
+    <button ng-click="check('Grasses')" id="qRDS-button110" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Grasses
+    </button>
+    
+    <button ng-click="check('Eucalyptus')" id="qRDS-button111" style="font-weight:500;color:#73656F;font-size:30px;" class="button button-positive button-block button-clear">
+        Eucalyptus species
+    </button>
+    
+    <button id="qRDS-button33" style="font-weight:500;color:#000000;font-size:30px;" class="button button-positive button-block button-clear">
+        Reference only
+    </button>
+
+  </ion-content>
+</ion-view>
+
+<script id = "my-modal.html" type = "text/ng-template">
+   <ion-modal-view>  
+      <ion-content>
+        <i class="icon ion-close-round" ng-click="closeModal()" style="position:absolute; right:2vh; top:-43vh; font-size:200%"></i>
+        <div style="text-align:center;margin-top:45vh">
+            <button class="button button-positive" ng-click="pay()">
+              Pay ${{price}}
+            </button>
+        </div>
+      </ion-content>
+   </ion-modal-view>
+</script>
