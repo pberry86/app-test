@@ -1,37 +1,120 @@
 {
-  "name": "myApp_v1",
-  "version": "0.0.1",
-  "description": "An Ionic project",
-  "devDependencies": {
-    "gulp": "^3.5.6",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^3.1.0"
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-whitelist@^1.3.3",
+        "scope": null,
+        "escapedName": "cordova-plugin-whitelist",
+        "name": "cordova-plugin-whitelist",
+        "rawSpec": "^1.3.3",
+        "spec": ">=1.3.3 <2.0.0",
+        "type": "range"
+      },
+      "/Users/mac/essentialOilQRDSClone/modified_with_google"
+    ]
+  ],
+  "_from": "cordova-plugin-whitelist@>=1.3.3 <2.0.0",
+  "_id": "cordova-plugin-whitelist@1.3.3",
+  "_inCache": true,
+  "_location": "/cordova-plugin-whitelist",
+  "_nodeVersion": "6.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-whitelist-1.3.3.tgz_1510361682681_0.11782261240296066"
   },
-  "dependencies": {
-    "cordova-plugin-device": "^2.0.1",
-    "cordova-plugin-googleplus": "^5.2.1",
-    "cordova-plugin-inappbrowser": "^2.0.2",
-    "cordova-plugin-ionic-keyboard": "^2.0.5",
-    "cordova-plugin-ionic-webview": "^1.1.16",
-    "cordova-plugin-splashscreen": "^5.0.2",
-    "cordova-plugin-whitelist": "^1.3.3",
-    "cordova-android": "~7.0.0"
+  "_npmUser": {
+    "name": "stevegill",
+    "email": "stevengill97@gmail.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-whitelist@^1.3.3",
+    "scope": null,
+    "escapedName": "cordova-plugin-whitelist",
+    "name": "cordova-plugin-whitelist",
+    "rawSpec": "^1.3.3",
+    "spec": ">=1.3.3 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.3.tgz",
+  "_shasum": "b5e85ecdbbfe5aeded40a1bf4ee2372e67d96fb4",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-whitelist@^1.3.3",
+  "_where": "/Users/mac/essentialOilQRDSClone/modified_with_google",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/CB"
   },
   "cordova": {
-    "plugins": {
-      "cordova-plugin-googleplus": {
-        "REVERSED_CLIENT_ID": "394555923123-3p1ltqmpb2n55301dqom8ta1e38dbj9k.apps.googleusercontent.com"
-      },
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-device": {},
-      "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-inappbrowser": {}
-    },
     "platforms": [
       "android"
     ]
-  }
+  },
+  "dependencies": {},
+  "description": "Cordova Whitelist Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b5e85ecdbbfe5aeded40a1bf4ee2372e67d96fb4",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.3.tgz"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova-android": ">=4.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-whitelist#readme",
+  "keywords": [
+    "cordova",
+    "whitelist",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "bowserj",
+      "email": "bowserj@apache.org"
+    },
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "filmaj",
+      "email": "maj.fil@gmail.com"
+    },
+    {
+      "name": "purplecabbage",
+      "email": "purplecabbage@gmail.com"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-whitelist",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-whitelist.git"
+  },
+  "version": "1.3.3"
 }
